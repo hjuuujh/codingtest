@@ -12,7 +12,8 @@ public class Lv1Solution01 {
     for (int i : nums) {
       hs.add(i);
     }
-
+	
+    // 최대 1/2, 종류가 적으면 set의 사이즈만큼
     return answer < hs.size() ? answer : hs.size();
   }
 
