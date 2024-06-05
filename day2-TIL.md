@@ -10,7 +10,7 @@ list.sort(Comparator.reverseOrder());  <br/>
 String.join("", list);  <br/>
   <br/>
 - 소수 판별 <br/>
-```
+```java
 public boolean isPrime(int n) {
     for (int i = 2; i <= (int) Math.sqrt(n); i++) {
       if (n % i == 0) {
