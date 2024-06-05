@@ -1,12 +1,12 @@
-- Stack/list to Array  <br/>
+1. Stack/list to Array  <br/>
 st.stream().mapToInt(i -> i).toArray();  <br/>
 list.stream().mapToInt(i -> i).toArray();  <br/>
  <br/>
-- sort list  <br/>
+2. sort list  <br/>
 list.sort(Comparator.naturalOrder());  <br/>
 list.sort(Comparator.reverseOrder());  <br/>
  <br/>
-- list to String  <br/>
+3. list to String  <br/>
 String.join("", list);  <br/>
   <br/>
 - 소수 판별 <br/>
