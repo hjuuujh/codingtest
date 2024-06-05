@@ -1,15 +1,15 @@
-1. Stack/list to Array  <br/>
-st.stream().mapToInt(i -> i).toArray();  <br/>
-list.stream().mapToInt(i -> i).toArray();  <br/>
- <br/>
-2. sort list  <br/>
-list.sort(Comparator.naturalOrder());  <br/>
-list.sort(Comparator.reverseOrder());  <br/>
- <br/>
-3. list to String  <br/>
-String.join("", list);  <br/>
-  <br/>
-- 소수 판별 <br/>
+1. Stack/list to Array  
+st.stream().mapToInt(i -> i).toArray();  
+list.stream().mapToInt(i -> i).toArray();  
+       
+2. sort list  
+list.sort(Comparator.naturalOrder());  
+list.sort(Comparator.reverseOrder());  
+  
+3. list to String  
+String.join("", list);  
+  
+4. 소수 판별  
 ```java
 public boolean isPrime(int n) {
     for (int i = 2; i <= (int) Math.sqrt(n); i++) {
